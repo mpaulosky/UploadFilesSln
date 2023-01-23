@@ -4,6 +4,11 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>81360c89-478d-4333-ad56-b78588ae49a9</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UploadFilesLibrary\UploadFilesLibrary.csproj" />
+  </ItemGroup>
 
 </Project>
